@@ -7,16 +7,38 @@ html {
   font-weight:bold;
   color: #D4B041;
 }
-.left {
+.sixty {
   width: 60%;
-  padding: 2rem 1.5rem;
 }
-.right {
+img {
+  max-width: 100%;
+}
+.forty {
   width: 40%;
+  margin-left: 1.5rem;
+}
+.container {
+  margin: 2rem 0rem 2rem 1.5rem;
+}
+.bannercontainer {
+  margin: 2rem 0rem 2rem 1.5rem;;
 }
 h1 {
   font-size: 4rem;
   font-weight: bold;
+}
+h2 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+h3 {
+  font-size: 2rem;
+}
+h4 {
+  font-size: 2rem;
+}
+a {
+  text-decoration: none;
 }
 
 /* Header styles */
@@ -39,12 +61,14 @@ header img {
 }
 .desktopnav {
   display: flex;
-  margin-right: 0.5rem;
+  margin-right: 1rem;
   font-size: 1.25rem;
 }
 .desktopnav span {
-  padding-right: 1rem;
+  padding: 0rem 0.5rem;
   height: 4rem;
+  display: flex;
+  align-items: center;
 }
 .desktopnav span:hover {
   background-color: #D4B041;
@@ -54,12 +78,13 @@ header img {
 /* Banner styles */
 .banner {
   display: flex;
+  background-color: rgba(212,176,65,0.5);
 }
 .cta_banner {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  padding-right: 4rem;
+  /*padding-right: 4rem;*/
 }
 .cta_banner p {
   padding: 2rem 0rem;
@@ -75,6 +100,101 @@ header img {
   font-size: 1.5rem;
 }
 .button:hover {
-  background-color: #D4B041;
+  background-color: #5589D4;
   color: white;
+}
+
+/* Main info styles*/
+.main {
+  display: flex;
+}
+.left {
+  display: flex;
+  flex-direction: column;
+}
+.main h2 {
+  padding-top: 2rem;
+  padding-bottom: 1.5rem;
+}
+.main p {
+  padding-bottom: 1.5rem;
+}
+.main span {
+  padding-bottom: 2rem;
+  font-size: 0.75rem;
+}
+.right {
+  display: flex;
+  flex-direction: column;
+}
+.widget {
+  display: flex;
+}
+.firsteventimage {
+  width: 35%;
+  height: auto;
+  padding: 0rem 1rem 1rem 1rem;
+}
+.eventimage {
+  width: 35%;
+  height: auto;
+  padding: 1rem;
+}
+.eventinfo {
+  display: flex;
+  flex-direction: column;
+  width: 65%;
+  justify-content: center;
+}
+
+/* Learning styles */
+.learning {
+  background-color: #D4B041;
+  text-align: center;
+}
+.learning h2 {
+  padding-top: 2rem;
+}
+.all_courses {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 1rem 3.5rem;
+}
+.courses {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  text-align: left;
+  width: 31%;
+  margin: 1rem;
+}
+.courses img {
+  height: auto;
+}
+.course_info {
+  padding: 1rem 1rem 1.5rem 1rem;
+}
+.category {
+  margin: 0.5rem 0rem;
+}
+
+/* Thesis styles */
+.thesis {
+  display: flex;
+}
+video {
+  width: 100%;
+  height: auto;
+}
+.thesis h4 {
+  padding: 1.5rem 0rem 0.5rem 0rem;
+}
+
+/* Footer styles */
+footer {
+  background-color: #D4B041;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 1.5rem;
+  min-height: 3rem;
 }
